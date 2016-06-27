@@ -1,0 +1,3 @@
+# verbose-waffle-root
+
+A minor try to create a small web-page with Java backend.

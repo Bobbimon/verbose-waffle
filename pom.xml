@@ -4,9 +4,14 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.verbose-waffle</groupId>
-    <artifactId>verbose-waffle</artifactId>
+    <groupId>com.verbose-waffle-root</groupId>
+    <artifactId>verbose-waffle-root</artifactId>
+    <packaging>pom</packaging>
     <version>0.0.1-SNAPSHOT</version>
-
+    <modules>
+        <module>verbose-waffle-core</module>
+        <module>verbose-waffle-web</module>
+        <module>verbose-waffle-web-development</module>
+    </modules>
 
 </project>
